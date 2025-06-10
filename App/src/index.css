@@ -97,8 +97,13 @@ button:focus-visible {
     justify-content: space-between;
 }
 
-.settings {
+.setting {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    margin-bottom: 1rem;
+}
+
+.setting-label {
+    margin-bottom: 0.25rem;
+    font-weight: bold;
 }
