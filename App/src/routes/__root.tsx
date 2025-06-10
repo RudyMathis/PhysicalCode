@@ -10,6 +10,9 @@ export const Route = createRootRoute({
         </Link>{' '}
         <Link to="/about">
           About
+        </Link>{' '}
+        <Link to="/preview">
+          Preview
         </Link>
       </div>
       <hr />
