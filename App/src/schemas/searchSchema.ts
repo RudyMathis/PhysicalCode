@@ -1,0 +1,25 @@
+import { z } from 'zod';
+
+export const previewSearchSchema = z.object({
+    text: z.string().optional(),
+    color: z.string().optional(),
+    backgroundColor: z.string().optional(),
+    borderColor: z.string().optional(),
+    borderStyle: z.string().optional(),
+    font: z.string().optional(),
+    fontSize: z.number().optional(),
+    padding: z.number().optional(),
+    backgroundShape: z.string().optional(),
+    isGlowing: z.boolean().optional(),
+    glowColor: z.string().optional(),
+    glowSize: z.number().optional(),
+    glowSpread: z.number().optional(),
+    glowPosition: z.string().optional(),
+    glowBlur: z.number().optional(),
+    glowOpacity: z.number().optional(),
+    isTextShadow: z.boolean().optional(),
+    textShadowOffsetX: z.number().optional(),
+    textShadowOffsetY: z.number().optional(),
+    textShadowBlur: z.number().optional(),
+    textShadowColor: z.string().optional(),
+});
